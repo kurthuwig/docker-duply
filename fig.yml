@@ -1,0 +1,4 @@
+duply:
+  image: kurthuwig/duply:latest
+  volumes:
+   - /var/lib/docker/persistent-volumes/duply:/root
