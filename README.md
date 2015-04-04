@@ -74,7 +74,7 @@ Please take a note of the key id and the passphrase as you will need them later.
 Create a backup configuration
 -----------------------------
 
-Duply supports an arbitraty number of independent backup configurations.
+Duply supports an arbitrary number of independent backup configurations.
 Usually you only use one configration.
 To create a configuration named `default` run the container with the parameters
 
@@ -83,7 +83,7 @@ To create a configuration named `default` run the container with the parameters
 Then go into the volume directory for `/root`, enter the hidden subdirectory `.duply/default` and edit the `conf` file with a text editor.
 First you should insert the key id from above into `GPG_KEY` and the passphrase into `GPG_PW`.
 Then change the `TARGET` to your backup location and credentials.
-Change the `SOURCE´ to something like `/backup`.
+Change the `SOURCE` to something like `/backup`.
 
 More information can be found in the [duply documentation](http://duply.net/wiki/index.php/Duply-documentation).
 
