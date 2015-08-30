@@ -91,7 +91,7 @@ Create a backup of the backup configuration
 -------------------------------------------
 
 Create a backup of the `.duply` and the `.gnupg` directory on a safe medium, e.g. a USB drive, CD or print it out.
-If you lose this information - especially the GPG key or passphrase - there is now way to decrypt your backup.
+If you lose this information - especially the GPG key or passphrase - there is no way to decrypt your backup.
 
 *Hint:* if you do this after the first duply run, there will be ASCII exports of the GPG keys in the `.duply/default` directory that are easy to print out.
 
