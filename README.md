@@ -27,7 +27,7 @@ The corresponding docker command would be
 
     docker run \
       -it \
-      -v /path_to_directory/duply:/root
+      -v /path_to_directory/duply:/root \
       kurthuwig/duply:latest
 
 and the corresponding [docker-compose](http://docs.docker.com/compose/) (or [fig](http://www.fig.sh/)) file would be
