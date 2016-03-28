@@ -24,3 +24,5 @@ VOLUME ["/root"]
 COPY files/entrypoint.sh /entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]
+
+CMD ["/bin/bash"]
