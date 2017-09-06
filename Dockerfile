@@ -1,11 +1,12 @@
 FROM ubuntu:trusty
 
-MAINTAINER Kurt Huwig
+LABEL maintainer="Kurt Huwig"
 
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
     duply \
     ncftp \
     python-boto \
+    python-paramiko \
     pwgen \
     rsync \
     openssh-client \
